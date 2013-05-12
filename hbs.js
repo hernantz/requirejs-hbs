@@ -1,6 +1,8 @@
-/*global define*/
+/*global define, nodeRequire*/
 
 define(["handlebars"], function(Handlebars) {
+  "use strict";
+
   var buildMap = {},
       templateExtension = ".hbs";
 
