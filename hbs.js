@@ -1,3 +1,5 @@
+/*global define*/
+
 define(["handlebars"], function(Handlebars) {
   var buildMap = {},
       templateExtension = ".hbs";
